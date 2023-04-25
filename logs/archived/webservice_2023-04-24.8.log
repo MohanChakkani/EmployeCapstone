@@ -1,0 +1,29 @@
+2023-04-24 22:16:55,408 INFO org.apache.tomcat.util.net.NioEndpoint.certificate [restartedMain] Connector [https-jsse-nio-9090], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/MOHAN/eclipse-workspace/EmployeMangamentSystem/bin/main/javaemployecapstone.p12] using alias [myalias] and with trust store [null]
+2023-04-24 22:16:55,413 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (https) with context path ''
+2023-04-24 22:16:55,418 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] Started EmployeMangamentSystemApplication in 1.494 seconds (JVM running for 13613.359)
+2023-04-24 22:16:55,420 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-24 22:32:51,744 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(185)-127.0.0.1] Application shutdown requested.
+2023-04-24 22:32:51,969 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(185)-127.0.0.1] Stopping service [Tomcat]
+2023-04-24 22:32:52,112 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(185)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 22:32:52,151 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(185)-127.0.0.1] HikariPool-4 - Shutdown initiated...
+2023-04-24 22:32:52,239 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(185)-127.0.0.1] HikariPool-4 - Shutdown completed.
+2023-04-24 22:33:01,536 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] Starting EmployeMangamentSystemApplication using Java 18.0.1.1 on DESKTOP-JOJEF26 with PID 17152 (C:\Users\MOHAN\eclipse-workspace\EmployeMangamentSystem\bin\main started by MOHAN in C:\Users\MOHAN\eclipse-workspace\EmployeMangamentSystem)
+2023-04-24 22:33:01,541 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-24 22:33:01,687 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 22:33:01,688 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 22:33:03,632 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 22:33:04,059 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 407 ms. Found 1 JPA repository interfaces.
+2023-04-24 22:33:05,608 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (https)
+2023-04-24 22:33:05,636 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-24 22:33:05,637 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-24 22:33:06,583 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-24 22:33:06,585 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4896 ms
+2023-04-24 22:33:06,932 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24 22:33:07,076 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-24 22:33:07,572 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-24 22:33:07,834 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-04-24 22:33:08,829 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-04-24 22:33:08,904 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-24 22:33:10,370 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24 22:33:10,392 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 22:33:11,169 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning

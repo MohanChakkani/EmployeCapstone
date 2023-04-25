@@ -1,0 +1,28 @@
+2023-04-22 15:41:44,090 INFO org.mongodb.driver.connection [cluster-rtt-ClusterId{value='6443b2e0d8dc3f4db6b756fd', description='null'}-localhost:27017] Opened connection [connectionId{localValue:17, serverValue:172}] to localhost:27017
+2023-04-22 15:41:44,090 INFO org.mongodb.driver.connection [cluster-ClusterId{value='6443b2e0d8dc3f4db6b756fd', description='null'}-localhost:27017] Opened connection [connectionId{localValue:18, serverValue:173}] to localhost:27017
+2023-04-22 15:41:44,092 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='6443b2e0d8dc3f4db6b756fd', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2332400}
+2023-04-22 15:41:44,112 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-22 15:41:44,124 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path ''
+2023-04-22 15:41:44,128 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] Started EmployeMangamentSystemApplication in 1.549 seconds (JVM running for 20064.027)
+2023-04-22 15:41:44,129 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-22 15:42:06,829 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9090-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-22 15:42:06,830 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-04-22 15:42:06,834 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-2] Completed initialization in 4 ms
+2023-04-22 15:42:08,866 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-9090-exec-5] Init duration for springdoc-openapi is: 494 ms
+2023-04-22 15:42:15,475 INFO com.capstone.project.controller.EmployeeController [http-nio-9090-exec-4] getEmployeeById(employeeID)
+2023-04-22 16:02:42,480 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=58s925ms29µs300ns).
+2023-04-22 16:13:22,659 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-22 16:13:23,021 INFO org.apache.catalina.core.StandardService [Thread-43] Stopping service [Tomcat]
+2023-04-22 16:13:23,068 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-43] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-22 16:13:23,360 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-43] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-22 16:13:23,372 INFO com.zaxxer.hikari.HikariDataSource [Thread-43] HikariPool-9 - Shutdown initiated...
+2023-04-22 16:13:23,449 INFO com.zaxxer.hikari.HikariDataSource [Thread-43] HikariPool-9 - Shutdown completed.
+2023-04-22 16:13:24,210 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] Starting EmployeMangamentSystemApplication using Java 18.0.1.1 on DESKTOP-JOJEF26 with PID 43372 (C:\Users\MOHAN\eclipse-workspace\EmployeMangamentSystem\bin\main started by MOHAN in C:\Users\MOHAN\eclipse-workspace\EmployeMangamentSystem)
+2023-04-22 16:13:24,211 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-22 16:13:25,282 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-22 16:13:25,283 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-22 16:13:25,366 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2023-04-22 16:13:25,506 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-22 16:13:25,507 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-22 16:13:25,536 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.capstone.project.repo.EmployeRepo; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2023-04-22 16:13:25,536 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 29 ms. Found 0 MongoDB repository interfaces.

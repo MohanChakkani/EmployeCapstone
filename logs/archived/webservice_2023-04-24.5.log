@@ -1,0 +1,39 @@
+2023-04-24 18:30:09,490 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 18:30:09,969 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 18:30:11,286 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-24 18:30:11,630 INFO org.apache.tomcat.util.net.NioEndpoint.certificate [restartedMain] Connector [https-jsse-nio-9090], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/MOHAN/eclipse-workspace/EmployeMangamentSystem/bin/main/javaemployecapstone.p12] using alias [myalias] and with trust store [null]
+2023-04-24 18:30:11,664 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (https) with context path ''
+2023-04-24 18:30:11,685 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] Started EmployeMangamentSystemApplication in 6.753 seconds (JVM running for 9.625)
+2023-04-24 18:39:47,990 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [https-jsse-nio-9090-exec-10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 18:39:47,991 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-9090-exec-10] Initializing Servlet 'dispatcherServlet'
+2023-04-24 18:39:48,000 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-9090-exec-10] Completed initialization in 9 ms
+2023-04-24 18:39:48,060 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-10] EmployeeId(2) is called
+2023-04-24 19:02:21,658 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m12s726ms907탎).
+2023-04-24 19:25:57,643 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m35s564ms432탎700ns).
+2023-04-24 19:52:38,571 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m6s142ms994탎100ns).
+2023-04-24 20:47:04,797 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s312ms503탎).
+2023-04-24 20:53:43,676 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m38s878ms915탎).
+2023-04-24 20:55:22,974 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m39s297ms788탎).
+2023-04-24 20:59:22,815 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m59s840ms475탎100ns).
+2023-04-24 21:02:02,634 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m39s819ms233탎800ns).
+2023-04-24 21:04:51,193 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m48s559ms702탎800ns).
+2023-04-24 21:20:27,598 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m36s404ms806탎500ns).
+2023-04-24 21:22:20,240 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m52s641ms613탎400ns).
+2023-04-24 21:24:22,918 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m2s678ms409탎800ns).
+2023-04-24 21:32:27,073 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m4s155ms430탎900ns).
+2023-04-24 21:47:55,310 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-04-24 21:47:55,532 INFO org.apache.catalina.core.StandardService [Thread-5] Stopping service [Tomcat]
+2023-04-24 21:47:55,552 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 21:47:56,265 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 21:47:56,305 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-04-24 21:47:56,336 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-04-24 21:47:56,649 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] Starting EmployeMangamentSystemApplication using Java 18.0.1.1 on DESKTOP-JOJEF26 with PID 40156 (C:\Users\MOHAN\eclipse-workspace\EmployeMangamentSystem\bin\main started by MOHAN in C:\Users\MOHAN\eclipse-workspace\EmployeMangamentSystem)
+2023-04-24 21:47:56,650 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-24 21:47:57,045 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24 21:47:57,063 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2023-04-24 21:47:57,284 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (https)
+2023-04-24 21:47:57,285 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-24 21:47:57,287 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-24 21:47:57,332 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-24 21:47:57,334 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 680 ms
+2023-04-24 21:47:57,430 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]

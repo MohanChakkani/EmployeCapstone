@@ -1,0 +1,16 @@
+2023-04-24 22:52:44,931 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24 22:52:45,548 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-24 22:52:45,767 INFO org.apache.tomcat.util.net.NioEndpoint.certificate [restartedMain] Connector [https-jsse-nio-9090], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/MOHAN/eclipse-workspace/EmployeMangamentSystem/bin/main/javaemployecapstone.p12] using alias [myalias] and with trust store [null]
+2023-04-24 22:52:45,770 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (https) with context path ''
+2023-04-24 22:52:45,774 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] Started EmployeMangamentSystemApplication in 2.176 seconds (JVM running for 1188.628)
+2023-04-24 22:52:45,777 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-24 22:53:01,669 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [https-jsse-nio-9090-exec-7] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 22:53:01,670 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-9090-exec-7] Initializing Servlet 'dispatcherServlet'
+2023-04-24 22:53:01,672 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-9090-exec-7] Completed initialization in 2 ms
+2023-04-24 22:53:01,676 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-7] EmployeeId(2) is called
+2023-04-24 22:57:27,974 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(29)-127.0.0.1] Application shutdown requested.
+2023-04-24 22:57:28,010 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(29)-127.0.0.1] Stopping service [Tomcat]
+2023-04-24 22:57:28,012 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(29)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24 22:57:28,031 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(29)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24 22:57:28,036 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(29)-127.0.0.1] HikariPool-3 - Shutdown initiated...
+2023-04-24 22:57:28,063 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(29)-127.0.0.1] HikariPool-3 - Shutdown completed.
