@@ -1,0 +1,33 @@
+2023-04-27 11:15:43,675 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-27 11:15:44,215 INFO org.apache.tomcat.util.net.NioEndpoint.certificate [restartedMain] Connector [https-jsse-nio-9090], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/MOHAN/eclipse-workspace/EmployeMangamentSystem/bin/main/javaemployecapstone.p12] using alias [myalias] and with trust store [null]
+2023-04-27 11:15:44,264 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (https) with context path ''
+2023-04-27 11:15:44,283 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] Started EmployeMangamentSystemApplication in 10.388 seconds (JVM running for 13.637)
+2023-04-27 11:15:47,322 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [https-jsse-nio-9090-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 11:15:47,322 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-9090-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-04-27 11:15:47,323 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-9090-exec-2] Completed initialization in 0 ms
+2023-04-27 11:15:47,356 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-2] EmployeeId(2) is called
+2023-04-27 11:16:37,538 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-8] EmployeeId(2) is called
+2023-04-27 11:16:45,915 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-5] EmployeeId(1) is called
+2023-04-27 11:16:53,428 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-9] EmployeeId(1) is called
+2023-04-27 11:31:23,457 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-8] EmployeeId(1) is called
+2023-04-27 11:33:34,757 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-3] EmployeeId(1) is called
+2023-04-27 11:35:25,894 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-9] EmployeeId(1) is called
+2023-04-27 12:38:34,243 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-2] EmployeeId(1) is called
+2023-04-27 12:38:56,847 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-7] EmployeeId(1) is called
+2023-04-27 13:34:55,927 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s397ms952µs100ns).
+2023-04-27 14:47:05,643 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-27 14:47:06,340 INFO org.apache.catalina.core.StandardService [Thread-5] Stopping service [Tomcat]
+2023-04-27 14:47:06,388 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-27 14:47:06,964 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 14:47:07,030 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-04-27 14:47:07,056 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-04-27 14:47:07,655 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] Starting EmployeMangamentSystemApplication using Java 18.0.1.1 on DESKTOP-JOJEF26 with PID 30420 (C:\Users\MOHAN\eclipse-workspace\EmployeMangamentSystem\bin\main started by MOHAN in C:\Users\MOHAN\eclipse-workspace\EmployeMangamentSystem)
+2023-04-27 14:47:07,656 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-27 14:47:08,086 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 14:47:08,102 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2023-04-27 14:47:08,308 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2023-04-27 14:47:08,309 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-27 14:47:08,310 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-27 14:47:08,353 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-27 14:47:08,353 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 693 ms
+2023-04-27 14:47:08,436 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]

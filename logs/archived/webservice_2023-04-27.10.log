@@ -1,0 +1,31 @@
+2023-04-27 16:53:30,114 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 16:53:30,441 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 304 ms. Found 1 JPA repository interfaces.
+2023-04-27 16:53:31,799 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (https)
+2023-04-27 16:53:31,826 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-27 16:53:31,828 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-27 16:53:32,695 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-27 16:53:32,696 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4605 ms
+2023-04-27 16:53:32,968 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-27 16:53:33,071 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-27 16:53:33,469 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-27 16:53:33,674 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-04-27 16:53:34,540 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-04-27 16:53:34,635 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-27 16:53:36,602 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-27 16:53:36,624 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 16:53:37,556 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 16:53:40,878 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-27 16:53:41,782 INFO org.apache.tomcat.util.net.NioEndpoint.certificate [restartedMain] Connector [https-jsse-nio-9090], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/MOHAN/eclipse-workspace/EmployeMangamentSystem/bin/main/javaemployecapstone.p12] using alias [myalias] and with trust store [null]
+2023-04-27 16:53:41,846 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (https) with context path ''
+2023-04-27 16:53:41,871 INFO com.capstone.project.EmployeMangamentSystemApplication [restartedMain] Started EmployeMangamentSystemApplication in 14.618 seconds (JVM running for 18.146)
+2023-04-27 16:54:06,681 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [https-jsse-nio-9090-exec-6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 16:54:06,682 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-9090-exec-6] Initializing Servlet 'dispatcherServlet'
+2023-04-27 16:54:06,687 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-9090-exec-6] Completed initialization in 5 ms
+2023-04-27 16:54:06,770 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-6] EmployeeId(1) is called
+2023-04-27 16:54:06,983 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [https-jsse-nio-9090-exec-6] Resolved [com.capstone.project.exception.EmployeeIDException: Invalid EmployeeId : 1]
+2023-04-27 16:54:14,015 INFO com.capstone.project.controller.EmployeeController [https-jsse-nio-9090-exec-3] EmployeeId(1) is called
+2023-04-27 16:54:14,033 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [https-jsse-nio-9090-exec-3] Resolved [com.capstone.project.exception.EmployeeIDException: Invalid EmployeeId : 1]
+2023-04-27 16:54:55,783 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 11 class path changes (0 additions, 0 deletions, 11 modifications)
+2023-04-27 16:54:55,966 INFO org.apache.catalina.core.StandardService [Thread-5] Stopping service [Tomcat]
+2023-04-27 16:54:55,976 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-27 16:54:56,145 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'

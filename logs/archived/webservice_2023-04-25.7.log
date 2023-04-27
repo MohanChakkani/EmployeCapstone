@@ -1,0 +1,4 @@
+2023-04-25 12:06:11,745 INFO com.capstone.project.service.EmployeeServiceImpTest [Test worker] Started EmployeeServiceImpTest in 16.558 seconds (JVM running for 20.492)
+2023-04-25 12:06:12,505 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-25 12:06:12,510 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-04-25 12:06:12,528 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
