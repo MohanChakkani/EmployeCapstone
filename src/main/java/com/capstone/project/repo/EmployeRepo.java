@@ -7,6 +7,5 @@ import com.capstone.project.entity.Employee;
 
 @Repository
 public interface EmployeRepo extends JpaRepository<Employee, Integer>{
-	//Employee findByEmployeeID(int employeeID);
-
+	
 }
